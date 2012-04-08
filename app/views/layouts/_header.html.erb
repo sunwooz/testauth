@@ -1,0 +1,20 @@
+<header>
+    <div id="head">
+    <h1 id="logo"><a href="/">ComboTok</a></h1>
+    <nav class="round">
+      <ul>
+        <% if current_user %>
+        <li>Logged in as <%= current_user.email %></li>
+        <li><%= link_to "Log out", log_out_path %></li>
+        <% else %>
+        <li><%= link_to "Sign up", sign_up_path %></li>
+        <li><%= link_to "Login", log_in_path %></li>
+        <% end %>
+        <li><%= link_to "Home", root_path %></li>
+        <% flash.each do |name, msg| %>
+        <li><%= content_tag :div, msg, :id => "flash_#{name}" %></li>
+        <% end %>
+      </ul>
+    </nav>
+    </div>
+</header>
