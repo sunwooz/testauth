@@ -1,157 +1,55 @@
-.simple_form label {
-  float: left;
-  width: 100px;
-  text-align: right;
-  margin: 2px 10px;
-}
-
-.simple_form div.input {
-  margin-bottom: 10px;
-}
-#user_email {
-    width:200px;
-}
-#user_password {
-    width:200px;
-}
-#user_password_confirmation {
-    width:200px;
-}
-.simple_form div.boolean, .simple_form input[type='submit'] {
-  margin-left: 120px;
-}
-
-.simple_form div.boolean label, .simple_form label.collection_radio {
-  float: none;
-  margin: 0;
-}
-
-.simple_form label.collection_radio {
-  margin-right: 10px;
-  margin-left: 2px;
-}
-
-.simple_form .error {
-  clear: left;
-  margin-left: 120px;
-  font-size: 12px;
-  color: #D00;
-  display: block;
-}
-
-.simple_form .hint {
-  clear: left;
-  margin-left: 120px;
-  font-size: 12px;
-  color: #555;
-  display: block;
-  font-style: italic;
-}
-
-
-/* simple form up */
-
 nav ul li {
     list-style-type:none;
     display:inline;
-    float:right;
-    margin-left:20px;
+    margin-right:10px;
+    width:80px;
 }
-
+.box {
+    padding:15px;
+    background-color:whitesmoke;
+    border-radius:10px;
+    border:1px solid white;
+}
+.header {
+    padding:10px;
+    background-color:whitesmoke;
+    border-radius:5px;
+    padding-right:20px;
+}
 #logo {
-    float:left;
-    margin-left:none;
+    width:300px;
+    position:relative;
+    top:40px;
+    left:10px;
 }
-a:link:after, a:visited:after {
-    font-size:90%;
+h6 {
+    position:relative;
+    left:160px;
 }
-.container {
-    width:720px;
-
-}
-
-footer ul li {
-    list-style-type:none;
-    display:inline;
-    margin-left:20px;
-    float:left;
-}
-.span-18 {   
-    height:30px;
-}
-#buffer {
-    background-color:blue; 
-}
-.edit_user {
-    margin-left:10px;
-}
-h1 {
-    margin-left:10px;
-}
-ul li {
-    list-style-type:none;
-    text-align:center;
-}
-li h1 {
-    text-align:center;
-    font-size:24px;
-}
-li p {
-    text-align:center;
-}
-#notice {
-    color:green;
-}
-div img {
-    width:150px;
-    height:170px;
-}
-#error_explanation {
-    font-size:12px;
-    text-align:center;
-}
-.error_messages h2 {
-    text-align:center;
-}
-.error_messages ul li {
-    color:red;
-    padding:5px;
-}
-body {
-    font-family: Century Gothic, sans-serif;
-}
-a {
+a:hover {
     text-decoration:none;
 }
-#first {
-    border:solid black;
-    height:200px;
+.btn-large btn-primary {
+    text-align:center;
 }
-#second {
-    border:solid black;
-    height:200px;
-}
-#third {
-    border:solid black;
-    height:200px;
-}
-.left {
+.images {
     float:left;
+    width:200px;
     height:200px;
+    padding-left:15px;
     margin-right:10px;
 }
-.right {
-    float:right;
-    height:200px;
-    margin-left:10px;
-}
-.migi {
-    padding:10px;
+.texts {
+    padding-left:15px;
     
 }
-.hidari {
-    padding:10px;
-    
+#how {
+    margin-bottom:15px;
 }
-
-
+.centerthis {
+    text-align:center;
+}
+#betasignup {
+    position:relative;
+    left:300px;
+}

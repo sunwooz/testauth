@@ -1,21 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <title><%= @title %></title>
 <%= render 'layouts/stylesheets' %>
 </head>
-<body>
+<body>  
+
+
+
 <div class="container">
-
-<%= render 'layouts/header' %>
-
-
+  <%= render 'layouts/header' %>
+<div class="row-fluid">
+  <div class="span9">
 
 <%= yield %>
-
-
-
+  </div>
 </div>
+</div>
+
 </body>
 </html>
 
