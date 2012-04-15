@@ -1,9 +1,9 @@
-<header>
-
-    <h1 id="logo"><a href="/">ComboTok</a></h1><h6>Beta</h6>
-    <div class="centerthis">
-    <nav class="round">
-      <ul>
+<div id="navbar"> 
+  
+  <ul> 
+        <div id="logo">
+            <h1><a href="/">ComboTok</a></h1>
+        </div>
         <% if current_user %>
         <li><%= current_user.email %></li>
         <li><%= link_to "Log out", log_out_path %></li>
@@ -11,10 +11,6 @@
         <li><%= link_to "Sign up", sign_up_path %></li>
         <li><%= link_to "Login", log_in_path %></li>
         <% end %>
-        <li><%= link_to "Home", root_path %></li>
-        
-      </ul>
-      
-    </nav>
-    </div>
-</header>
+        <li><%= link_to "Home", root_path %></li> 
+  </ul> 
+</div> 

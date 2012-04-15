@@ -1,55 +1,60 @@
-nav ul li {
-    list-style-type:none;
+#navbar {
+    background:url(green.png) top left repeat;
+    margin-top:0px;
+    margin-left:0px;
+    padding-bottom:6px;
+    margin-bottom:10px;
+}
+body {
+    font-family:Helvetica Neue;
+    background:url(background.png) top left repeat;
+    margin:0;
+    margin-top:0px;
+    padding:0;
+}
+#navbar ul li {
     display:inline;
-    margin-right:10px;
-    width:80px;
-}
-.box {
-    padding:15px;
-    background-color:whitesmoke;
-    border-radius:10px;
-    border:1px solid white;
-}
-.header {
-    padding:10px;
-    background-color:whitesmoke;
-    border-radius:5px;
-    padding-right:20px;
-}
-#logo {
-    width:300px;
+    padding:5px 10px 5px 10px;
+    color:white;
     position:relative;
-    top:40px;
-    left:10px;
+    top:13px;
 }
-h6 {
+#navbar ul li a {
+    text-decoration:none;
     position:relative;
-    left:160px;
+    color:white;
+    font-weight:bold;
 }
 a:hover {
     text-decoration:none;
 }
-.btn-large btn-primary {
-    text-align:center;
+#navbar ul {
+    text-align:right;
+    margin-top:0px;
+    margin:auto;
+    width:700px;
+    height:40px;
 }
-.images {
+.container {
+    width:780px;
+    max-width:760px;
+    margin:0 auto;
+    padding:10px;
+}
+#logo h1 {
+    margin-top:0px;
+    height:20px;
+}
+#logo h1 a {
+    color:white;
+}
+#logo {
     float:left;
+}
+#firstimg {
     width:200px;
     height:200px;
-    padding-left:15px;
-    margin-right:10px;
 }
-.texts {
-    padding-left:15px;
-    
-}
-#how {
-    margin-bottom:15px;
-}
-.centerthis {
-    text-align:center;
-}
-#betasignup {
-    position:relative;
-    left:300px;
+#for {
+    padding-left:30px;
 }

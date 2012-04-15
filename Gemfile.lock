@@ -119,7 +119,7 @@ DEPENDENCIES
   jquery-rails
   pg
   rails (= 3.1.1)
-  sass-rails (~> 3.1)
+  sass-rails
   simple_form
   sqlite3
   turn

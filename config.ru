@@ -3,4 +3,3 @@
 require ::File.expand_path('../config/environment',  __FILE__)
 run Testauth::Application
 
-require 'bootstrap-sass'
