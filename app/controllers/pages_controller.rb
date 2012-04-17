@@ -7,6 +7,10 @@ class PagesController < ApplicationController
   def splash
     
   end
+  
+  def home2
+    @title = "TestFrontPage"
+  end
 
 
 

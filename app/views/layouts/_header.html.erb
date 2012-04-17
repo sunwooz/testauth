@@ -1,16 +1,16 @@
 <div id="navbar"> 
   
   <ul> 
-        <div id="logo">
-            <h1><a href="/">ComboTok</a></h1>
-        </div>
-        <% if current_user %>
-        <li><%= current_user.email %></li>
-        <li><%= link_to "Log out", log_out_path %></li>
-        <% else %>
-        <li><%= link_to "Sign up", sign_up_path %></li>
-        <li><%= link_to "Login", log_in_path %></li>
-        <% end %>
-        <li><%= link_to "Home", root_path %></li> 
+    <div id="logo">
+        <h1><a href="/">ComboTok</a></h1>
+    </div>
+    <% if current_user %>
+    <li><%= current_user.email %></li>
+    <li><%= link_to "Log out", log_out_path %></li>
+    <% else %>
+    <li><%= link_to "Sign up", sign_up_path %></li>
+    <li><%= link_to "Login", log_in_path %></li>
+    <% end %>
+    <li><%= link_to "Blog", posts_path %></li>
   </ul> 
 </div> 
