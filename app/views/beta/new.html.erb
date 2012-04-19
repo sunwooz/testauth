@@ -1,0 +1,24 @@
+
+
+<!--
+<h1 id="main">Language Education is <span id="main">BROKEN</span></h1>
+<p id="second">Help me fix it!</p>
+
+
+-->
+<div id="main">
+<img src="ThatAccent.png" href="/"/>
+<h3 id="2nd">The Real Way To Learn</h3>
+<p>Since 2004, hundreds of thousands of companies have used basecamp to manage over 8,000,000 projects. Basecamp is the world's most popular cloud-based project management and collaboration app.</p>
+<%= form_for @beta, :url => { :action => :new } do |f| %>
+  
+  <%= f.text_field :email, :size => 10, :placeholder => "Your E-mail" %>
+  <div id="submit">
+  <%= f.submit "Beta Sign Up", :class => "btn btn-large" %>
+  </div>
+<% end  %>
+
+
+
+
+</div>

@@ -7,7 +7,7 @@
 }
 body {
     font-family:Helvetica Neue;
-    background:url(background.png) top left repeat;
+    
     margin:0;
     margin-top:0px;
     padding:0;
@@ -36,8 +36,8 @@ a:hover {
     height:40px;
 }
 .container {
-    width:780px;
-    max-width:760px;
+    width:700px;
+    max-width:700px;
     margin:0 auto;
     padding:10px;
 }
@@ -52,27 +52,8 @@ a:hover {
 #logo {
     float:left;
 }
-#firstimg {
-    width:200px;
-    height:200px;
-}
-#for h2 {
-    padding-left:20px;
-}
-#for p {
-    padding-left:10px;
-}
-#forbtn {
-    margin-left:20px;
-}
 p {
     font-size:25px;
     line-height:30px;
     margin-left:10px;
 }
-#main {
-    font-size:35px;
-    padding-left:20px;
-    margin-bottom:10px;
-}
-

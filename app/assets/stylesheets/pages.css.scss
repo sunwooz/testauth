@@ -2,19 +2,26 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-
 body {
- padding-left:20px;
+    padding-right:20px;
 }
-.home2 h1 {
+h1 {
+    text-align:center;
+    font-family:arial black;
+}
+p {
     text-align:center;
 }
-.home2 {
-    margin-bottom:15px;
+input {
+    text-align:center;
+    margin-left:30%;
+    margin-right:50%;
+    margin-top:20px;
+    width:300px;
 }
-.row {
-    padding-left:30px;
-}
-.span3 ul ol {
-    font-size:30px;
+.btn {
+    margin-left:42%;
+    margin-right:50%;
+    margin-top:10px;
+    width:100px;
 }
