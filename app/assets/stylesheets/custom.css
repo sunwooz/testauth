@@ -10,6 +10,7 @@ body {
     margin:0;
     margin-top:0px;
     padding:0;
+    height: 100%;
 }
 #navbar ul li {
     display:inline;
@@ -32,7 +33,6 @@ body {
     height:40px;
 }
 .container {
-    min-height:1005px;
     max-width:700px;
     margin:0 auto;
 }
