@@ -11,17 +11,24 @@
 #main h3 {
     font-size:19px;
     text-align:center;
-    margin-left:30px;
+    margin-left:50px;
 }
 #beta_email {
-    margin-left:43px;
+    margin-left:55px;
     margin-top:5px;
     margin-bottom:5px;
 }
 #submit {
-    margin-left:30%;
+    margin-left:38%;
     margin-right:50%;
 }
 #main img {
     margin-left:5px;
 }
+#logo a img {
+    margin-top:8px;
+}
+body {
+    background:-webkit-gradient(radial, 50% 30%, 0, 50% 30%, 500, from(#f4fafe), to(#a2d2ed)) no-repeat #a2d2ed;
+}
+

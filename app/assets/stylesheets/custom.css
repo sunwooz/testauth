@@ -7,7 +7,6 @@
 }
 body {
     font-family:Helvetica Neue;
-    
     margin:0;
     margin-top:0px;
     padding:0;
@@ -26,7 +25,7 @@ body {
     font-weight:bold;
 }
 a:hover {
-    text-decoration:none;
+
 }
 #navbar ul {
     text-align:right;
@@ -37,6 +36,7 @@ a:hover {
 }
 .container {
     width:700px;
+    min-height:775px;
     max-width:700px;
     margin:0 auto;
     padding:10px;

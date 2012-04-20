@@ -4,7 +4,7 @@
   
   <ul> 
     <div id="logo">
-        <%= image_tag("images/thataccent.png") %>
+        <a href="/"><%= image_tag("logo.png", :size => "140x25") %></a>
     </div>
     <% if current_user %>
     <li><%= current_user.email %></li>
