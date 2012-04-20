@@ -6,7 +6,6 @@ class Beta < ActiveRecord::Base
   validates :email, :presence => { :message => "Email Field Cannot Be Blank!" },
                     :length => {
                       :maximum => 50,
-                      :minimum => 5
                     },
                     :format => { :with => email_regex },
                     :uniqueness => { :case_sensitive => false }

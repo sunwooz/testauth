@@ -15,9 +15,10 @@
     width:400px;
 }
 #beta_email {
-    margin-left:55px;
-    margin-top:5px;
-    margin-bottom:5px;
+    padding:5px;
+    margin:5px;
+    position:relative;
+    left:48px;
 }
 #submit {
     margin-left:35%;
@@ -33,4 +34,17 @@ body {
     background:-webkit-gradient(radial, 50% 20%, 60, 50% 20%, 580, from(#f4fafe), to(#a2d2ed)) no-repeat #a2d2ed;
     background: -moz-radial-gradient(50% 20%, circle, #f4fafe 60px, #a2d2ed 580px);
 }
-
+.field_with_errors {
+    padding:0;
+    margin:0;
+    display:none;
+    position:relative;
+    left:46px;
+}
+#errmsg ul li {
+    list-style-type:none;
+    width:300px;
+    color:red;
+    position:relative;
+    left:-90px;
+}

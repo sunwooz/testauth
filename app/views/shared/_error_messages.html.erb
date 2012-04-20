@@ -1,0 +1,9 @@
+<% if @beta.errors.any? %>
+  <div id="errmsg">
+    <ul>
+    <% @beta.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+    <% end %>
+    </ul>
+  </div>
+<% end %>

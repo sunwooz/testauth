@@ -5,9 +5,11 @@
 <h3 id="2nd">The Future Of Language Learning</h3>
 <%= form_for @beta, :url => { :action => :create } do |f| %>
   
+  
   <%= f.text_field :email, :size => 10, :placeholder => "Your E-mail" %>
   <div id="submit">
   <%= f.submit "Beta Sign Up", :class => "btn btn-large" %>
+  <%= render 'shared/error_messages' %>
   </div>
 <% end  %>
 
