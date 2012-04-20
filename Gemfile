@@ -23,3 +23,7 @@ gem 'jquery-rails'
 group :test do
   gem 'turn', :require => false
 end
+
+group :development do
+  gem 'debugger'
+end
