@@ -3,7 +3,7 @@ class BetaMailer < ActionMailer::Base
   
   def beta_email(beta)
     @beta = beta
-    @url = "http://localhost:3000"
-    mail(:to => beta.email, :subject => "Welcome to my Site")
+    @url = "http://thataccent.com"
+    mail(:to => beta.email, :subject => "Welcome to ThatAccent.com!")
   end
 end
