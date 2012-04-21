@@ -23,7 +23,11 @@ body {
     text-decoration:none;
     position:relative;
     color:white;
-    font-weight:bold;
+    font-size:20px;
+    font-family:Helvetica Neue;
+}
+#navbar ul li a:active {
+    color:blue;
 }
 #navbar ul {
     text-align:right;
@@ -33,7 +37,6 @@ body {
     height:40px;
 }
 .container {
-    max-width:700px;
     margin:0 auto;
 }
 #logo h1 {
@@ -54,4 +57,7 @@ p {
 }
 html {
     height: 100%;
+}
+input -webkit-autofill {
+    color: #2a2a2a !important;
 }
